@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Project: Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Fuente principal */
+            line-height: 1.6; /* Altura de línea */
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4; /* Color de fondo */
+        }
+
+        h1 {
+            font-family: 'Georgia', serif; /* Fuente para el título principal */
+            font-size: 2.5em; /* Tamaño de fuente más grande */
+            color: #333; /* Color del título principal */
+            text-align: center; /* Centrar el título */
+        }
+
+        h2 {
+            font-family: 'Arial', sans-serif; /* Fuente para subtítulos */
+            font-weight: bold; /* Negrita */
+            color: #555; /* Color de los subtítulos */
+        }
+
+        h3 {
+            font-family: 'Arial', sans-serif; /* Fuente del subtítulo de la historia */
+            font-style: italic; /* Cursiva */
+            color: #777; /* Color del subtítulo */
+        }
+
+        ul {
+            list-style-type: none; /* Sin viñetas */
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0; /* Espacio entre los elementos de la lista */
+            font-family: 'Courier New', monospace; /* Fuente monoespaciada para la lista */
+            font-size: 1.1em; /* Tamaño de fuente para la lista */
+        }
+
+        p {
+            background: white; /* Fondo blanco para el párrafo */
+            padding: 15px;
+            border-radius: 5px; /* Bordes redondeados */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+            font-family: 'Verdana', sans-serif; /* Fuente del párrafo */
+            font-size: 1em; /* Tamaño de fuente para el párrafo */
+        }
+
+        h6 {
+            color: #888; /* Color para la fecha de publicación */
+            font-style: italic; /* Cursiva para la fecha */
+        }
+
+        .habits {
+            background: #ffffff; /* Fondo blanco para la sección de hábitos */
+            padding: 20px;
+            border-radius: 5px; /* Bordes redondeados */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+            margin: 20px 0; /* Margen alrededor del cuadro */
+        }
+
+        .habits h2 {
+            text-align: center; /* Centrar el título de la sección */
+        }
+
+        .good-habits, .bad-habits {
+            margin: 10px 0; /* Espacio entre listas de hábitos */
+        }
+    </style>
+</head>
+<body>
+    <h1>Adán's Blog</h1>
+
+    <h3>The Story of My Life</h3>
+    <ul>
+        <li>Win a Boxing Medal</li>
+        <li>I'm Falling in Love</li>
+        <li>She Broke My Heart</li>
+        <li>I Got in Better Shape</li>
+    </ul>
+
+    <h2>Accidentally Broke Someone's Nose</h2>
+    <h6>Posted on some date in some year</h6>
+    
+    <p>Something exciting happened. I accidentally broke someone's nose during a sparring session. It was an intense moment, and I learned a lot about control and sportsmanship that day.</p>
+
+    <div class="habits">
+        <h2>Bad and Good Habits of Adán</h2>
+        <div class="good-habits">
+            <h3>Good Habits</h3>
+            <ul>
+                <li>Regular exercise</li>
+                <li>Eating healthy meals</li>
+                <li>Reading books</li>
+                <li>Practicing boxing regularly</li>
+            </ul>
+        </div>
+        <div class="bad-habits">
+            <h3>Bad Habits</h3>
+            <ul>
+                <li>Procrastinating homework</li>
+                <li>Spending too much time on social media</li>
+                <li>Skipping meals</li>
+                <li>Not getting enough sleep</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
